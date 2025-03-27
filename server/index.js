@@ -26,9 +26,9 @@ app.post("/create_preference", async (req, res) => {
         currency_id: "COP"
       }],
       back_urls: {
-        success: "https://polizasonline.online/sura/",
-        failure: "https://polizasonline.online/sura/",
-        pending: "https://polizasonline.online/sura/"
+        success: "https://eltiempo.com",
+        failure: "https://eltiempo.com",
+        pending: "https://eltiempo.com"
       },
       auto_return: "approved"
     };
@@ -43,5 +43,5 @@ app.post("/create_preference", async (req, res) => {
   }
 });
 
-
+// Exporta la app para que Vercel la use como función serverless
 export default app;
