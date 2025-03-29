@@ -4,7 +4,7 @@ import { MercadoPagoConfig, Preference } from "mercadopago";
 
 // Es recomendable usar variables de entorno para el token
 const client = new MercadoPagoConfig({
-  accessToken: process.env.MERCADOPAGO_ACCESS_TOKEN || 'APP_USR-956858183879502-032621-8be9789c09a9a042eb42d7eaa27bffaa-684004898'
+  accessToken: process.env.MERCADOPAGO_ACCESS_TOKEN || 'APP_USR-5217417960861863-032700-b09d9024a7ac9a754990291852f3c399-2345131404'
 });
 
 const app = express();
